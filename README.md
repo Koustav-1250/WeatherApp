@@ -1,2 +1,2 @@
 # WeatherApp
-This App shows the temperature and weather conditions for city name you provide.
+This App shows the temperature and weather conditions for City Name you provide.
