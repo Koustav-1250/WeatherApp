@@ -1,0 +1,34 @@
+Backend---->
+ import express from 'express' cannot use import statement outside the module **error**
+ because import statements are permitted only in ES modules. and node is not treating this 
+ as es modules so we need to include this object in package.json {"type":module}.
+
+javascript---------------------->
+The json() method of the Response interface takes a HTTP Response stream and reads it to completion. It returns a promise which resolves with the result of parsing the body text as JSON. 
+
+
+
+
+
+Frontend-------------->
+
+/* height: 100px;
+    height: 20vh; 
+    overflow: unset; */
+ 
+ /* view port height/width(vh/vw): This sets the size relative to the viewport(browser
+    window) we can use it make a responsive div. but it effects only the 
+    parent child elements will overflow.
+    So I think we should use rem only for height and use media-querires to make 
+    it responsive. */
+    /*setting height equal to 100% will not work because we need 
+    to set the height of its parent element height 100% i.e html 
+    and body*/
+    /* font-size : 100% means 16 px  it is relative to parent better to use rem in font-size
+    (recommonded) and also better. */
+
+
+
+  we cannot make a child of flex container  having display block.
+
+  margin: auto can be done only for block elements remem
